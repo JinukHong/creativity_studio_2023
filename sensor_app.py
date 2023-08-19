@@ -9,7 +9,6 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv('env/data.env')
-print() # 정해원
 
 # Initialize OpenAI API
 openai.api_key = os.getenv('API_KEY')

@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv('env/data.env')
 
 # Initialize OpenAI API
-openai.api_key = os.getenv('API_KEY')
+openai.api_key = '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'
 
 
 st.title('Sein Farm in your hand')

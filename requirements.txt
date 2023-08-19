@@ -2,5 +2,5 @@ streamlit
 numpy
 pandas
 openai==0.27.8
-dotenv
+python-dotenv
 os
